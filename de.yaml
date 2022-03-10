@@ -1,0 +1,53 @@
+meta:
+    invite:
+        title: "Lade mich ein"
+        description: "Du kannst mich [hier](https://discord.com/oauth2/authorize?client_id=810810667065278484&scope=bot&permissions=84032) einladen"
+settings:
+    prefix:
+        interakionmenu: "Suche einen Prefix aus"
+        title: "Prefix-Einstellungen"
+        description: "Suche dir einen Prefix aus"
+
+        embed2_title: "Prefix geändert"
+        embed2_description: "Der Prefix wurde erfolgreich geändert"
+    language:
+        interakionmenu: "Suche eine Sprache aus"
+        title: "Sprach-Einstellungen"
+        description: "Suche dir eine Sprache aus"
+
+        embed2_title: "Sprache geändert"
+        embed2_description: "Die Sprache wurde erfolgreich geändert"
+errorpy:
+    error:
+        owner_only_title: "❌ Nur für Entwickler"
+        owner_only_description: "Nur der Entwickler von Poll-Bot kann diesen Command nutzen."
+
+        no_dms_title: "❌ Command in DMs deaktiviert"
+        no_dms_description: "Dieser Command ist in Privaten Nachrichten deaktiviert."
+
+        missing_permissions_title: "❌ Fehlende Berechtigung"
+        missing_permissions_description: "Dazu fehlen mir die Berechtigen"
+
+        missing_userpermissions_title: "❌ Fehlende Berechtigung"
+        missing_userpermissions_description: "Du hast nicht alle Berechtigungen für diesen Befehl."
+
+        unknown_error_title: "❌ Unbekannter Fehler"
+        unknown_error_description: "Es ist ein Fehler aufgetreten. Bitte melde dich im [Support](https://discord.gg/mvRcU4jmxU)"
+help:
+    helpcommand:
+        title: "Hey, hier findest du alle meine Befehle."
+
+        field1_name: "ℹ️ Informationen"
+        field1_value: "`invite`"
+
+        field2_name: "<:pollbot:943926566562439219> Poll-Bot"
+        field2_value: "`poll`, `strawpoll`"
+
+        field3_name: "⚙️ Eistellungen"
+        field3_value: "`prefix`, `language`"
+poll:
+    poll:
+        error: "Bitte stellen Sie sicher, dass Sie den Befehl richtig verwenden und weniger als 21 Optionen haben."
+        keyError: "Bitte stelle sicher, dass du das Format 'Umfrage: {Titel} [Option1] [Option2] [Option 3]' nutzt."
+    strawpoll:
+        keyError: "Bitte stelle sicher, dass du das Format 'Umfrage: {Titel} [Option1] [Option2] [Option 3]' nutzt."
