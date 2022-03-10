@@ -1,0 +1,53 @@
+meta:
+    invite:
+        title: "Invítame"
+        description: "Puedes invitarme [aquí](https://discord.com/oauth2/authorize?client_id=810810667065278484&scope=bot&permissions=84032)"
+settings:
+    prefix:
+        interakionmenu: "Buscar un prefijo"
+        title: "Configuración del prefijo"
+        description: "Elija un prefijo"
+
+        embed2_title: "Cambio de prefijo"
+        embed2_description: "El prefijo ha sido cambiado con éxito"
+    language:
+        interakionmenu: "Buscar un idioma"
+        title: "Configuración del idioma"
+        description: "Elija un idioma"
+
+        embed2_title: "Cambio de idioma"
+        embed2_description: "El idioma ha sido cambiado con éxito"
+errorpy:
+    error:
+        owner_only_title: "❌ Sólo para desarrolladores"
+        owner_only_description: "Sólo el desarrollador de Poll-Bot puede utilizar este comando."
+
+        no_dms_title: "❌ Comando desactivado en los mensajes privados"
+        no_dms_description: "Este comando está desactivado en los mensajes privados."
+
+        missing_permissions_title: "❌ Falta de autorización"
+        missing_permissions_description: "No tengo derecho a hacer esto"
+
+        missing_userpermissions_title: "❌ Falta de autorización"
+        missing_userpermissions_description: "No tienes todos los permisos para este comando."
+
+        unknown_error_title: "❌ Error desconocido"
+        unknown_error_description: "Se ha producido un error. Por favor, informe a [Soporte](https://discord.gg/mvRcU4jmxU)"
+help:
+    helpcommand:
+        title: "Aquí encontrarás todos mis comandos."
+
+        field1_name: "ℹ️ Información"
+        field1_value: "`invite`"
+
+        field2_name: "<:pollbot:943926566562439219> Poll-Bot"
+        field2_value: "`poll`, `strawpoll`"
+
+        field3_name: "⚙️ Posiciones de hielo"
+        field3_value: "`prefix`, `language`"
+poll:
+    poll:
+        error: "Por favor, asegúrese de utilizar el comando correctamente y de tener menos de 21 opciones."
+        keyError: "Asegúrese de utilizar el formato Encuesta: {Título} [Opción1] [Opción2] [Opción 3]."
+    strawpoll:
+        keyError: "Asegúrese de utilizar el formato Encuesta: {Título} [Opción1] [Opción2] [Opción 3]."
