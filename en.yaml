@@ -1,0 +1,53 @@
+meta:
+    invite:
+        title: "Invite me"
+        description: "You can invite me [here](https://discord.com/oauth2/authorize?client_id=810810667065278484&scope=bot&permissions=84032)"
+settings:
+    prefix:
+        interakionmenu: "Search a prefix from"
+        title: "Prefix settings"
+        description: "Choose a prefix"
+
+        embed2_title: "Prefix changed"
+        embed2_description: "The prefix was successfully changed"
+    language:
+        interakionmenu: "Search a language"
+        title: "Language settings"
+        description: "Choose a language"
+
+        embed2_title: "Language changed"
+        embed2_description: "The language was successfully changed"
+errorpy:
+    error:
+        owner_only_title: "❌ For developers only"
+        owner_only_description: "Only the developer of Poll-Bot can use this command."
+
+        no_dms_title: "❌ Command disabled in DMs"
+        no_dms_description: "This command is disabled in private messages."
+
+        missing_permissions_title: "❌ Missing authorization"
+        missing_permissions_description: "I do not have the right to do this"
+
+        missing_userpermissions_title: "❌ Missing authorization"
+        missing_userpermissions_description: "You do not have all permissions for this command."
+
+        unknown_error_title: "❌ Unknown error"
+        unknown_error_description: "An error has occurred. Please report to the [Support](https://discord.gg/mvRcU4jmxU)"
+help:
+    helpcommand:
+        title: "Hey, here you can find all my commands."
+
+        field1_name: "ℹ️ Information"
+        field1_value: "`invite`"
+
+        field2_name: "<:pollbot:943926566562439219> Poll-Bot"
+        field2_value: "`poll`, `strawpoll`"
+
+        field3_name: "⚙️ Settings"
+        field3_value: "`prefix`, `language`"
+poll:
+    poll:
+        error: "Please make sure you use the command correctly and have less than 21 options."
+        keyError: "Please make sure you use the format 'Survey: {Title} [Option1] [Option2] [Option 3]'."
+    strawpoll:
+        keyError: "Please make sure you use the format 'Survey: {Title} [Option1] [Option2] [Option 3]'."
